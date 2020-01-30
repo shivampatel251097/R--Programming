@@ -1,0 +1,21 @@
+data1 <- read.csv("C:/Users/Shivam Patel/Desktop/data/spss dataset.csv", header= TRUE,sep=",")
+data2<-data.frame(data1)
+tail(data2)
+head(data2)
+data3<-head(data2,30)
+str(data2)
+summary(data2$Invoice_Amount)
+levels(data2$CU_Channel_Partner_Type)
+table(data2$CU_Channel_Partner_Type)
+dim(data3)
+length(data2)
+length(data2$Due_Date)
+unique(data2$cust_Nbr)
+range(data2$Invoice_Amount)
+tolower(data2$Type)
+toupper(data2$CU_Channel_Partner_Type)
+names(data2)
+names(data3)
+
+
+
