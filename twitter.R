@@ -6,10 +6,10 @@ library("ROAuth")
 # Download "cacert.pem" file
 download.file(url="http://curl.haxx.se/ca/cacert.pem",destfile="cacert.pem")
 
-api_key = "xH2q4kY1Z7OACQYtvNcVkE23R" # your api_key
-api_secret = "dvENtgUzLp0pBeIPi0uqsO9mzKrS5dTqVz1TgCkZ8Hjzuxm5KB" # your api_secret 
-access_token = "969327162963578880-wwIb1y9uRAXE25TuZMWhSErjrpJfq26" # your access_token 
-access_token_secret = "lWSMXR8EyZEmeHJVnQSHqUY0r1aG8Qzp38FpegsWXX70y" # your access_token_sceret 
+api_key = # your api_key
+api_secret = # your api_secret 
+access_token =  # your access_token 
+access_token_secret =  # your access_token_sceret 
 #create an object "cred" that will save the authenticated object that we can use for later sessions
 cred <- OAuthFactory$new(consumerKey='xH2q4kY1Z7OACQYtvNcVkE23R',
                          consumerSecret='dvENtgUzLp0pBeIPi0uqsO9mzKrS5dTqVz1TgCkZ8Hjzuxm5KB',
